@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\VFS">
+      <UniqueIdentifier>{d0422f26-198f-43d1-b1f3-3ddc85cef9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\VFS">
+      <UniqueIdentifier>{8a2235c6-8f5f-4f20-8682-1073c8ebbcab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Commands">
+      <UniqueIdentifier>{d4063537-2fe7-4477-9462-46996e618a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Commands">
+      <UniqueIdentifier>{e6227116-f8f1-4202-ac81-af9d77e0e6f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Processes">
+      <UniqueIdentifier>{0aad9fd2-1107-4ce3-9aba-2eb137684a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Processes">
+      <UniqueIdentifier>{e78494d0-48f7-49de-8b99-6125e7c87d75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="VFS.cpp">
+      <Filter>Файлы исходного кода\VFS</Filter>
+    </ClCompile>
+    <ClCompile Include="makeDirCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandExecutor.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="internalCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="VFS_Bitmap.cpp">
+      <Filter>Файлы исходного кода\VFS</Filter>
+    </ClCompile>
+    <ClCompile Include="listCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="changeDirCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="testCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="pwdCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="rmCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="chownCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="chmodCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="touchCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="renameCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="copyCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="whoCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="catCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="statCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="addUserCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="sudoCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="removeUserCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="pipeCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="sharedmemCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>Файлы исходного кода\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="makePipeCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="namedPipeCommand.cpp">
+      <Filter>Файлы исходного кода\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedMemory.cpp">
+      <Filter>Файлы исходного кода\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="VFS_Superblock.h">
+      <Filter>Заголовочные файлы\VFS</Filter>
+    </ClInclude>
+    <ClInclude Include="VFS_Types.h">
+      <Filter>Заголовочные файлы\VFS</Filter>
+    </ClInclude>
+    <ClInclude Include="VFS.h">
+      <Filter>Заголовочные файлы\VFS</Filter>
+    </ClInclude>
+    <ClInclude Include="VFS_Inode.h">
+      <Filter>Заголовочные файлы\VFS</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="makeDirCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandExecutor.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="internalCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="retCodes.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="VFS_Bitmap.h">
+      <Filter>Заголовочные файлы\VFS</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="listCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="testCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="changeDirCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="pwdCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="rmCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="VFS_Directory_Entry.h">
+      <Filter>Заголовочные файлы\VFS</Filter>
+    </ClInclude>
+    <ClInclude Include="chmodCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="chownCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="touchCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="renameCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="copyCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="whoCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="catCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="VFS_Shadow.h">
+      <Filter>Заголовочные файлы\VFS</Filter>
+    </ClInclude>
+    <ClInclude Include="statCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="addUserCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="sudoCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="removeUserCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="pipeCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="sharedmemCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="makePipeCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>Заголовочные файлы\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="namedPipeCommand.h">
+      <Filter>Заголовочные файлы\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMemory.h">
+      <Filter>Заголовочные файлы\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
